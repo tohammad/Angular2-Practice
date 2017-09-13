@@ -1,0 +1,14 @@
+install node for npm
+install angular cli using npm i -g angular-cli
+ng new first-app
+cd first-app
+ng serve
+
+How do we tell angular to get started: angular-cli adds scripts during build process.
+How is angular2 aware of our component, does it load all components by default. No, it doesn't load all components by default.
+This is done through main.ts file (there is a main.bundle ..it contains our code + third party code to run our application)
+
+BrowserModule
+-------------
+The metadata imports a single helper module, BrowserModule, which every browser app must import.
+BrowserModule registers critical application service providers. It also includes common directives like NgIf and NgFor, which become immediately visible and usable in any of this module's component templates.
