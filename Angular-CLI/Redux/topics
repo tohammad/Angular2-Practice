@@ -1,0 +1,22 @@
+CQRS
+----
+
+
+Command - action indicates something should happen
+Event - indicate something has happened
+
+
+eg: user post a message
+
+{ 'POST_MESSAGE', body:''}
+
+
+REDUX
+-----
+
+
+Store, Actions, Reducers
+
+Reducer - A function which specifies how the state changes in response to an action.
+				It does not modifies the state, just return a new state.
+Store - It is the responsibility of the store to modify the state.
